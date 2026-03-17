@@ -122,6 +122,16 @@ View the interactive dashboard:
 https://public.tableau.com/app/profile/amneet.kaur2844
 
 ---
+## Structure
+hr-workforce-analytics
+│
+├── data
+├── dashboard
+│   └── hr_dashboard.twbx
+├── images
+│   └── dashboard_preview.png
+├── insights.md
+└── README.md
 
 ## Author
 
