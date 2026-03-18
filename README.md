@@ -1,5 +1,10 @@
 # HR Analytics Dashboard | Tableau
+---
+<img width="1399" height="799" alt="HR Summary _ Overview" src="https://github.com/user-attachments/assets/70806bd7-6949-4fe9-8511-399417d96333" />
 
+<img width="1399" height="799" alt="HR _ Details" src="https://github.com/user-attachments/assets/fbdd4faa-356b-487e-b503-8c9fa90d3b5a" />
+
+---
 ## Project Overview
 
 Organizations generate large volumes of workforce data, but transforming that data into meaningful insights for HR decision-making can be challenging.
@@ -13,12 +18,6 @@ The dashboard enables stakeholders to quickly understand workforce structure and
 ## Business Problem
 
 HR teams often struggle to monitor workforce metrics such as employee growth, department distribution, demographic composition, and salary patterns. Without clear visualization, it becomes difficult to identify workforce trends and support strategic planning.
-
----
-<img width="1399" height="799" alt="HR Summary _ Overview" src="https://github.com/user-attachments/assets/70806bd7-6949-4fe9-8511-399417d96333" />
-
-<img width="1399" height="799" alt="HR _ Details" src="https://github.com/user-attachments/assets/fbdd4faa-356b-487e-b503-8c9fa90d3b5a" />
-
 
 ## Project Objective
 
@@ -123,15 +122,26 @@ https://public.tableau.com/app/profile/amneet.kaur2844
 
 ---
 ## Structure
-hr-workforce-analytics
+```
+workforce-hr-analytics-dashboard
+│
+├── dashboards
+│   ├── HR Summary _ Overview.png
+│   ├── HR _ Details.png
+│   └── HR.Dasboard.twb
 │
 ├── data
-├── dashboard
-│   └── hr_dashboard.twbx
-├── images
-│   └── dashboard_preview.png
-├── insights.md
+│   └── dataset.csv
+│
+├── documentation
+│   └── project_overview.md
+│
+├── insights
+│   └── Key_findings.md
+│
 └── README.md
+
+```
 
 ## Author
 
